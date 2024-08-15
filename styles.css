@@ -14,6 +14,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
+    margin-left: 65px;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -67,8 +68,8 @@ ul {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   .button1:hover{
-    background-color:aliceblue;
-    color:#d30606;
+    background-color:#d30606;
+    color:#ffffff;
   }
 .button2{
   transition-duration: 0.4;
@@ -80,12 +81,6 @@ ul {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .button2:hover{
-  background-color:white;
-  color:#d30606;
-}
-body{
-  background-image:url(KQ\ image1.jpg) ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-color:rgb(194, 1, 1);
+  color:#ffffff;
 }
