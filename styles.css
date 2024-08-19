@@ -17,6 +17,7 @@ ul {
     margin-left: 65px;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   li a:hover {
@@ -26,20 +27,14 @@ ul {
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 80px;
+    padding: 100px 40px 0px 80px;
   }
   h1  {
     font-size: 20px;
     color: #d30606;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-    padding-left: 65px;
+    padding:0px 0px 0px 60px;
+    margin-left: 20px;
   }
   p {
     font-size: 20px;
@@ -50,12 +45,12 @@ ul {
   }
   
   .buttons{
-    margin-left: 65px;
+    margin-left: 75px;
 
   }
   h4 {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 65px;
+    margin-left: 80px;
   }
   .button1{
     transition-duration: 0.4s;
@@ -64,31 +59,33 @@ ul {
     padding: 15px 32px;
     margin: 4px 2px;
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 0px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .button1:hover{
     background-color:#d30606;
     color:#ffffff;
   }
 .button2{
-  transition-duration: 0.4;
+  transition-duration: 0.4s;
   cursor: pointer;
   padding: 15px 32px;
   margin: 4px 2px;
   display: inline-block;
-  border-radius: 50px;
+  border-radius:  0px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .button2:hover{
   background-color:rgb(194, 1, 1);
   color:#ffffff;
 }
 div.gallery {
-  margin: 5px;
+  margin: 65px 0px 0px 80px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 100px;
 }
 
 div.gallery:hover {
@@ -103,4 +100,15 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gallery-big {
+  position: absolute;
+  margin-left: 600px;
+  margin-right: 100px;
+  right: 0;
+  top: 0;
+  padding: 90px; /* Adjust padding as needed */
+  width: 550px;
 }
