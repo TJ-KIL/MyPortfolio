@@ -82,7 +82,7 @@ ul {
   color:#ffffff;
 }
 div.gallery {
-  margin: 65px 0px 0px 80px;
+  margin: 65px 0px 0px 60px;
   border: 1px solid #ccc;
   float: left;
   width: 100px;
@@ -106,9 +106,9 @@ div.desc {
 .gallery-big {
   position: absolute;
   margin-left: 600px;
-  margin-right: 100px;
-  right: 0;
+  margin-right: 30px;
+  right:0;
   top: 0;
-  padding: 90px; /* Adjust padding as needed */
+  padding: 95px; /* Adjust padding as needed */
   width: 550px;
 }
